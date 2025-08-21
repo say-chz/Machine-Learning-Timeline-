@@ -1,0 +1,36 @@
+<html>
+<head>
+    <link title="timeline-styles" rel="stylesheet" 
+          href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+    <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>      
+    <!-- Timeline Embed -->
+    <div id="timeline-embed" style="width: 100%; height: 600px"></div>
+
+    <!-- Initialize Timeline -->
+    <script type="text/javascript">
+      window.timeline = new TL.Timeline('timeline-embed', 'whitney.json');
+    </script>
+
+    <!-- Footer -->
+    <footer style="position:fixed; bottom:10px; right:10px; font-size:11px; text-align:right; color:#555; max-width:300px;">
+      <p><strong>Sources:</strong></p>
+      <p>
+        Bernard Marr. (2016, February 19). <i>A short history of machine learning every manager should read</i>. 
+        <a href="https://bernardmarr.com/a-short-history-of-machine-learning-every-manager-should-read" target="_blank" style="color:#555; text-decoration:none;">
+          https://bernardmarr.com/a-short-history-of-machine-learning-every-manager-should-read
+        </a>
+      </p>
+      <p>
+        LightsOnData. (2020, June 2). <i>The history of machine learning</i>. 
+        <a href="https://www.lightsondata.com/the-history-of-machine-learning" target="_blank" style="color:#555; text-decoration:none;">
+          https://www.lightsondata.com/the-history-of-machine-learning
+        </a>
+      </p>
+    </footer>
+</body>
+</html>

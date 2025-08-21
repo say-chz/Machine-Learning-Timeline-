@@ -1,0 +1,123 @@
+{
+	"title": {
+		"media": {
+			"url": "https://imageio.forbes.com/specials-images/dam/imageserve/966248982/960x0.jpg?height=456&width=711&fit=bounds",
+			"caption": "",
+			"credit": "https://imageio.forbes.com/specials-images/dam/imageserve/966248982/960x0.jpg?height=456&width=711&fit=bounds"
+		},
+		"text": {
+			"headline": "What is machine learning? ",
+			"text": "<p>Machine learning is a branch of Artificial Intelligence that focuses on creating systems that can learn from data and improve their performance over time without being explicitly programmed.</p>"
+		}
+	},
+	"events": [
+		{
+			"media": {
+				"url": "https://miro.medium.com/1*5hGRlD3_FNeSTuUHDt5Gzg.jpeg",
+				"caption": "",
+				"credit": "https://miro.medium.com/1*5hGRlD3_FNeSTuUHDt5Gzg.jpeg"
+			},
+			"start_date": {
+				"year": "1943"
+			},
+			"text": {
+				"headline": "The Early days",
+				"text": "<p>Machine learning Starts in 1943 with the first mathematical model of neural networks presented in the specific paper “A logical calculus of the ideas immanent in nervous activity” by Walter Pitts and Warren McCulloch.</p>"
+			}
+		},
+		{
+			"media": {
+				"url": "https://media.licdn.com/dms/image/v2/D4D12AQG4ejYZMZLLEQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1724681676482?e=2147483647&v=beta&t=Hd4b58q0hPWJ4CV1WhoK-nxLX_IyY9OKNX2dIrQNisY",
+				"caption": "",
+				"credit": "https://media.licdn.com"
+			},
+			"start_date": {
+				"year": "1950"
+			},
+			"text": {
+				"headline": "The Turing test ",
+				"text": "<p>Alan Turing created the Turing test in 1950s to determine if the computer has real intelligence. To pass the test, a computer must be able to fool a human into believing it is also a human. </p>"
+			}
+		},
+		{
+			"media": {
+				"url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTntBGp1Ca3vQHeGohrF4BUFTSo6Shm3P8nXA&s",
+				"caption": "",
+				"credit": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTntBGp1Ca3vQHeGohrF4BUFTSo6Shm3P8nXA&s"
+			},
+			"start_date": {
+				"year": "1952"
+			},
+			"text": {
+				"headline": "Playing Games and Plotting Routes",
+				"text": "The first ever computer learning program was written by Arthur Samuel in 1952. The program was the game of checkers, and the IBM computer improved at the game the more it played, studying which moves made up winning strategies and incorporating those moves into its program."
+			}
+		},
+		{
+			"media": {
+				"url": "https://as.cornell.edu/sites/default/files/styles/4_5/public/field/image/rosenblatt450.jpg?itok=mz_VoNRr",
+				"credit": "https://as.cornell.edu/sites/default/files/styles/4_5/public/field/image/rosenblatt450.jpg?itok=mz_VoNRr"
+			},
+			"start_date": {
+				"year": "1957"
+			},
+			"text": {
+				"headline": "Introduces the Perceptron",
+				"text": "Frank Rosenblatt designed the first neural network for computers (the perceptron), which simulate the thought processes of the human brain."
+			}
+		},
+		{
+			"media": {
+				"url": "https://www.aitude.com/wp-content/uploads/2020/02/knn1-1-1.jpg",
+				"caption": "",
+				"credit": "https://www.aitude.com/wp-content/uploads/2020/02/knn1-1-1.jpg"
+			},
+			"start_date": {
+				"year": "1967"
+			},
+			"text": {
+				"headline": "Nearest Neighbor ",
+				"text": "The next significant forward in Machine learning wasn’t until 1967 when the “nearest neighbor” algorithm was written. This could be used to map a route for travelling salesmen, starting at a random city but ensuring they visit all cities during a short tour."
+			}
+		},
+		{
+			"media": {
+				"url": "https://miro.medium.com/1*Agy4VWCnx6sP6khdM485zw.jpeg",
+				"caption": "",
+				"credit": "https://miro.medium.com/1*Agy4VWCnx6sP6khdM485zw.jpeg"
+			},
+			"text": {
+				"headline": "Big Step Forward",
+				"text": "In the 1990s work on machine learning shifted from knowledge-driven approach to data-driven approach. Scientists began creating programs for computers to analyze large amounts of data and learn form the results."
+			}
+		},
+		{
+			"media": {
+				"url": "https://i.ytimg.com/vi/NT_sP6rSZLo/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD7lgmp34j0-JZ7r2sj8zUGajqepQ",
+				"caption": "",
+				"credit": "ytimg.com"
+			},
+			"start_date": {
+				"year": "1997"
+			},
+			"text": {
+				"headline": "Deep Blue to Deep Learning ",
+				"text": "<p>In 1997, IBM’s Deep Blue made history by defeating the world chess champion, proving a machine can outperform humans in complex games. By 2006, Geoffrey Hinton Introduced the “Deep Learning”, revolutionizing computer vision and recognition tasks.  4 years later, Microsoft revealed their Kinect Technology could track 20 human features at a rate of 30 times per second. IBM Watson’s Jeopardy victory in 2011, and Google’s neural networks that learned to identify cats on YouTube. In 2014, Facebook unveiled DeepFace, achieving human-level accuracy in facial recognition.</p>"
+			}
+		},
+		{
+			"media": {
+				"url": "https://www.trantorinc.com/wp-content/uploads/2023/10/Performance-Battle-_-AWS-vs-Google-Cloud-vs-Azure-_-1000-x-500-_-4.png",
+				"caption": "",
+				"credit": "Trantor"
+			},
+			"start_date": {
+				"year": "2015"
+			},
+			"text": {
+				"headline": "2015 - Present: The Rise of modern AI and Breakthrough Innovations ",
+				"text": "Since 2015, major tech companies like Amazon and Microsoft have advanced Machine learning platforms, While Global leaders raised ethical concerns over autonomous weapons. There were landmark achievements too, like 2016, when Google DeepMind’s AlphaGo defeated a Go champion, and in 2017, when Waymo began testing fully autonomous taxis. In 2020, OpenAI released GPT-3, the largest language model to date, with 175 billion parameters, which lead to new state-of-the-art results in NLP."
+			}
+		}
+	]
+}
