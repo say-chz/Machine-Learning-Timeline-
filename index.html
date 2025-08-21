@@ -5,38 +5,96 @@
     <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            background: linear-gradient(135deg, #f9e2f9, #e0c3fc);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 15px;
+            font-size: 22px;
+            font-weight: bold;
+            color: #4b0082;
+            background: rgba(255, 255, 255, 0.6);
+            border-bottom: 3px solid #d291ff;
+        }
+
+        #timeline-embed {
+            border: 3px solid #d291ff;
+            border-radius: 15px;
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+            background: white;
+            margin: 20px auto;
+            padding: 10px;
+            width: 90%;
+            height: 600px;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            font-size: 10px;
+            font-style: italic;
+            text-align: right;
+            color: #444;
+            max-width: 320px;
+            background: rgba(255,255,255,0.8);
+            padding: 8px;
+            border-radius: 8px;
+            box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+        }
+
+        footer a {
+            color: #a64ac9;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
 <body>      
-
-    <div id="timeline-embed" style="width: 100%; height: 600px"></div>
-
    
+    <header>
+        📖 History of Machine Learning
+    </header>
+
+
+    <div id="timeline-embed"></div>
+
+    
     <script type="text/javascript">
       window.timeline = new TL.Timeline('timeline-embed', 'whitney.json');
     </script>
 
-    <footer style="position:fixed; bottom:10px; right:10px; font-size:11px; text-align:right; color:#555; max-width:300px;">
+    <footer>
       <p><strong>Sources:</strong></p>
       <p>
         Bernard Marr. (2016, February 19). <i>A short history of machine learning every manager should read</i>. 
-        <a href="https://bernardmarr.com/a-short-history-of-machine-learning-every-manager-should-read" target="_blank" style="color:#555; text-decoration:none;">
+        <a href="https://bernardmarr.com/a-short-history-of-machine-learning-every-manager-should-read" target="_blank">
           https://bernardmarr.com/a-short-history-of-machine-learning-every-manager-should-read
         </a>
       </p>
       <p>
         LightsOnData. (2020, June 2). <i>The history of machine learning</i>. 
-        <a href="https://www.lightsondata.com/the-history-of-machine-learning" target="_blank" style="color:#555; text-decoration:none;">
+        <a href="https://www.lightsondata.com/the-history-of-machine-learning" target="_blank">
           https://www.lightsondata.com/the-history-of-machine-learning
         </a>
       </p>
-      <p> MLSec Forge. (2023, February 17). <i> A brief history of machine learning: Algo 0–100. Medium.</i>
-        <a href="https://medium.com/@MLSec_Forge/a-brief-history-of-machine-learning-algo-0-100-a59717123450"target="_blank" style="color:#555; text-decoration:none;">
+      <p>
+        MLSec Forge. (2023, February 17). <i>A brief history of machine learning: Algo 0–100</i>. Medium.  
+        <a href="https://medium.com/@MLSec_Forge/a-brief-history-of-machine-learning-algo-0-100-a59717123450" target="_blank">
             https://medium.com/@MLSec_Forge/a-brief-history-of-machine-learning-algo-0-100-a59717123450
         </a>
       </p>
     </footer>
 </body>
 </html>
-
-
